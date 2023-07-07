@@ -38,8 +38,8 @@ export default async function Home() {
         <Homelink src="/company.png" title="Company" link="#" />
         <Homelink src="/agents.png" title="Agents" link="#" />
 
-        <Link href={"/"} className="">
-          <div className="mb-5 cursor-pointer border-0 flex px-6 py-6 items-center gap-6 bg-[#fafafa] rounded-[10px] group group-hover:border-[#328A28] transition">
+        <Link href={"/"} className="group">
+          <div className="mb-5 cursor-pointer border flex px-6 py-6 items-center gap-6 bg-[#fafafa] rounded-[10px] group-hover:border-[#328A28] transition">
             <div className="rounded-full w-11 h-11 flex justify-center items-center bg-[#eeeeee]">
               <img src={"/partnership.png"} alt="" className="w-5 h-5" />
             </div>
@@ -56,7 +56,7 @@ export default async function Home() {
             </div>
           </div>
         </Link>
-        <p className="text-[12px]">
+        <p className="text-[13px]">
           Already have an account?{" "}
           <span className="text-[#23A323]">Sign in</span>
         </p>
