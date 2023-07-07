@@ -50,7 +50,7 @@ export default async function Home() {
               </p>
             </div>
             <div>
-              <span className="bg-[#23A323] text-white text-[11px] px-3 py-2 rounded-full">
+              <span className="bg-[#23A323] text-white text-[10px] px-2 py-[6px] rounded-full">
                 Coming soon
               </span>
             </div>
