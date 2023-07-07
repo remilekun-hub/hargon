@@ -28,7 +28,7 @@ function page() {
 
           <div className="outline-0 border-[1px] mb-[25px] w-full p-5 rounded-[3px] ">
             <select
-              className="cursor-pointer w-full outline-0"
+              className="cursor-pointer w-full outline-0 bg-inherit"
               placeholder="Business Industry"
             >
               <option className="t text-gray-300">Business Industry </option>
