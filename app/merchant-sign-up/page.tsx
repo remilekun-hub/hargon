@@ -31,7 +31,7 @@ function page() {
               className="cursor-pointer w-full outline-0"
               placeholder="Business Industry"
             >
-              <option className="">Business Industry</option>
+              <option className="t text-gray-300">Business Industry </option>
               <option className="text-black">Business Industry</option>
               <option value={"Agriculture"} className="text-black">
                 Agriculture
@@ -40,9 +40,6 @@ function page() {
                 Oil and Gas
               </option>
               <option value={"Manufacturing"} className="text-black">
-                Manufacturing
-              </option>
-              <option value={""} className="text-black">
                 Manufacturing
               </option>
             </select>
