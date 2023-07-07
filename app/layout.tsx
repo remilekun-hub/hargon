@@ -17,18 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex ">
-        <div className="basis-[43%] w-full max-h-screen">
-          <img src="/main.jpg" className="w-full" />
-          {/* <img src="/large.png" alt="" />
-          <img src="/group1.png" alt="" /> */}
-          {/* <div className="flex flex-col items-center">
-            <img src="/group1.png" alt="" className="w-full" />
-            <img src="/group2.png" alt="" className="w-full" />
-            <img src="/group3.png" alt="" className="w-full" />
-            <img src="/group4.png" alt="" className="w-full" />
-            <img src="/group5.png" alt="" className="w-full" />
-            <img src="/group6.png" alt="" className="w-full" />
-          </div> */}
+        <div className="basis-[43%] w-full max-h-screen hidden lg:block">
+          <img src="/main.jpg" className="w-full object-cover object-center" />
         </div>
         <div className="flex-1">{children}</div>
       </body>

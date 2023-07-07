@@ -8,11 +8,11 @@ import Link from "next/link";
 
 export default async function Home() {
   return (
-    <div className="bg-white w-full flex justify-center h-screen items-center">
+    <div className="bg-white w-full pt-[40px] pb-[50px] md:flex md:justify-center md:h-screen md:items-center px-4">
       <div className="">
-        <div className="flex justify-end mb-4">
+        <Link href={"/"} className="flex justify-end mb-4">
           <img src="/logo.png" alt="" />
-        </div>
+        </Link>
         <div className="mb-5">
           <h1 className="mb-2 font-medium text-[20px]">
             Select which type of account you want to open
@@ -50,13 +50,13 @@ export default async function Home() {
               </p>
             </div>
             <div>
-              <span className="bg-[#23A323] text-white text-[10px] px-2 py-[6px] rounded-full">
+              <span className="bg-[#23A323] text-white text-[8px] px-[2px] py-[3px] sm:text-[10px] sm:px-2 sm:py-[6px] rounded-full">
                 Coming soon
               </span>
             </div>
           </div>
         </Link>
-        <p className="text-[13px]">
+        <p className="text-[13px] text-center md:text-left">
           Already have an account?{" "}
           <span className="text-[#23A323]">Sign in</span>
         </p>

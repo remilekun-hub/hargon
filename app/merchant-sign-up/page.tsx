@@ -1,13 +1,14 @@
+import Link from "next/link";
 import React from "react";
 
 function page() {
   return (
-    <div className="bg-white w-full px-[15%] pt-[40px] min-h-screen pb-[50px]">
+    <div className="bg-white w-full px-5 md:px-[10%] lg:px-[15%] pt-[40px] min-h-screen pb-[50px]">
       <div>
-        <div className="flex justify-end mb-6">
+        <Link href={"/"} className="flex justify-end mb-6">
           <img src="/logo.png" alt="" />
-        </div>
-        <h1>Create a merchant Account</h1>
+        </Link>
+        <h1 className="font-semibold text-[18px]">Create a merchant Account</h1>
         <div className="mt-5">
           <input
             type="text"
@@ -32,12 +33,21 @@ function page() {
           <div className="outline-0 border-[1px] mb-[30px] w-full p-5 rounded-[3px] ">
             <select className="cursor-pointer w-full outline-0 text-gray-300">
               <option>Business Industry</option>
-              <option value={"Agriculture"}>Agriculture</option>
-              <option value={"Oil and Gas"}>Oil and Gas</option>
-              <option value={"Manufacturing"}>Manufacturing</option>
-              <option value={""}>Manufacturing</option>
-              <option>Business Industry</option>
-              <option>Business Industry</option>
+              <option className="text-black">Business Industry</option>
+              <option value={"Agriculture"} className="text-black">
+                Agriculture
+              </option>
+              <option value={"Oil and Gas"} className="text-black">
+                Oil and Gas
+              </option>
+              <option value={"Manufacturing"} className="text-black">
+                Manufacturing
+              </option>
+              <option value={""} className="text-black">
+                Manufacturing
+              </option>
+              <option className="text-black">Business Industry</option>
+              <option className="text-black">Business Industry</option>
             </select>
           </div>
           <input
