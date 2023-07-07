@@ -5,7 +5,7 @@ function page() {
   return (
     <div className="bg-white w-full px-5 md:px-[10%] lg:px-[15%] pt-[40px] min-h-screen pb-[50px]">
       <div>
-        <Link href={"/"} className="flex justify-end mb-6">
+        <Link href={"/"} className="inline-flex justify-end mb-6">
           <img src="/logo.png" alt="" />
         </Link>
         <h1 className="font-semibold text-[18px]">Create a merchant Account</h1>
@@ -31,7 +31,6 @@ function page() {
               className="cursor-pointer w-full outline-0 bg-inherit"
               placeholder="Business Industry"
             >
-              <option className="t text-gray-300">Business Industry </option>
               <option className="text-black">Business Industry</option>
               <option value={"Agriculture"} className="text-black">
                 Agriculture
