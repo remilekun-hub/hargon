@@ -27,8 +27,11 @@ function page() {
           />
 
           <div className="outline-0 border-[1px] mb-[25px] w-full p-5 rounded-[3px] ">
-            <select className="cursor-pointer w-full outline-0">
-              <option>Business Industry</option>
+            <select
+              className="cursor-pointer w-full outline-0"
+              placeholder="Business Industry"
+            >
+              <option className="">Business Industry</option>
               <option className="text-black">Business Industry</option>
               <option value={"Agriculture"} className="text-black">
                 Agriculture
@@ -42,8 +45,6 @@ function page() {
               <option value={""} className="text-black">
                 Manufacturing
               </option>
-              <option className="text-black">Business Industry</option>
-              <option className="text-black">Business Industry</option>
             </select>
           </div>
           <input
