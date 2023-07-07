@@ -5,7 +5,7 @@ function page() {
   return (
     <div className="bg-white w-full px-5 md:px-[10%] lg:px-[15%] pt-[40px] min-h-screen pb-[50px]">
       <div>
-        <Link href={"/"} className="inline-flex justify-end mb-6">
+        <Link href={"/"} className="flex justify-end mb-6">
           <img src="/logo.png" alt="" />
         </Link>
         <h1 className="font-semibold text-[18px]">Create a merchant Account</h1>

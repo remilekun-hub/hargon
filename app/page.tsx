@@ -10,7 +10,7 @@ export default async function Home() {
   return (
     <div className="bg-white w-full pt-[40px] pb-[50px] md:flex md:justify-center md:h-screen md:items-center px-4">
       <div className="">
-        <Link href={"/"} className="inline-flex justify-end mb-4">
+        <Link href={"/"} className="flex justify-end mb-4">
           <img src="/logo.png" alt="" />
         </Link>
         <div className="mb-5">
