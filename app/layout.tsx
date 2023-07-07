@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex ">
-        <div className="basis-[43%] w-full max-h-screen hidden xl:block">
+        <div className="basis-[43%] w-full h-full hidden lg:block">
           <img src="/main.jpg" className="w-full object-cover object-center" />
         </div>
         <div className="flex-1">{children}</div>

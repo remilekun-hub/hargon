@@ -13,21 +13,21 @@ function page() {
           <input
             type="text"
             placeholder="</KodeHex>"
-            className="outline-0 border-[1px] mb-[30px] w-full p-5 rounded-[3px]"
+            className="outline-0 border-[1px] mb-[25px] w-full p-5 rounded-[3px]"
           />
           <input
             type="text"
             placeholder="Business Name"
-            className="outline-0 border-[1px] mb-[30px] w-full p-5 rounded-[3px]"
+            className="outline-0 border-[1px] mb-[25px] w-full p-5 rounded-[3px]"
           />
           <input
-            type="number"
+            type="text"
             placeholder="Business Phone Number"
-            className="outline-0 border-[1px] mb-[30px] w-full p-5 rounded-[3px]"
+            className="outline-0 border-[1px] mb-[25px] w-full p-5 rounded-[3px]"
           />
 
-          <div className="outline-0 border-[1px] mb-[30px] w-full p-5 rounded-[3px] ">
-            <select className="cursor-pointer w-full outline-0 text-gray-400">
+          <div className="outline-0 border-[1px] mb-[25px] w-full p-5 rounded-[3px] ">
+            <select className="cursor-pointer w-full outline-0">
               <option>Business Industry</option>
               <option className="text-black">Business Industry</option>
               <option value={"Agriculture"} className="text-black">
@@ -49,17 +49,17 @@ function page() {
           <input
             type="email"
             placeholder="Business Email"
-            className="outline-0 border-[1px] mb-[30px] w-full p-5 rounded-[3px]"
+            className="outline-0 border-[1px] mb-[25px] w-full p-5 rounded-[3px]"
           />
           <input
             type="text"
             placeholder="Business website or social handle"
-            className="outline-0 border-[1px] mb-[30px] w-full p-5 rounded-[3px]"
+            className="outline-0 border-[1px] mb-[25px] w-full p-5 rounded-[3px]"
           />
           <input
             type="password"
             placeholder="Password"
-            className="outline-0 border-[1px] mb-[30px] w-full p-5 rounded-[3px]"
+            className="outline-0 border-[1px] mb-[25px] w-full p-5 rounded-[3px]"
           />
 
           <input
