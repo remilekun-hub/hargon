@@ -25,13 +25,9 @@ function page() {
             placeholder="Business Phone Number"
             className="outline-0 border-[1px] mb-[30px] w-full p-5 rounded-[3px]"
           />
-          <input
-            type="text"
-            placeholder="Business Industry"
-            className="outline-0 border-[1px] mb-[30px] w-full p-5 rounded-[3px]"
-          />
+
           <div className="outline-0 border-[1px] mb-[30px] w-full p-5 rounded-[3px] ">
-            <select className="cursor-pointer w-full outline-0 text-gray-300">
+            <select className="cursor-pointer w-full outline-0 text-gray-400">
               <option>Business Industry</option>
               <option className="text-black">Business Industry</option>
               <option value={"Agriculture"} className="text-black">
